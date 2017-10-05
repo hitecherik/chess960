@@ -16,4 +16,4 @@ Run this in your terminal: `python chess960.py [number of positions]` where the 
 
 ## Licence
 
-Copyright (c) Alexander Nielsen 2016. Licenced under a [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/ "Creative Commons 4.0 International Licence").
+Copyright (c) Alexander Nielsen 2016-17. Licenced under a [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/ "Creative Commons 4.0 International Licence").
