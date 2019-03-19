@@ -4,7 +4,7 @@ This is just a quick Python web app I built in Flask to generate multiple [Chess
 
 ## Usage
 
-1. Run `server.py` in Python 3 with Flask installed
+1. Run `server.py <PORT>` in Python 3 with Flask installed (if the port is unspecified, it defaults to `5000`)
 2. Go to the specified path in your web browser
 3. Append a number to the path. E.g.: if the app is hosted at `localhost:5000` to generate 10 positions you go to `localhost:5000/10`.
 

@@ -1,9 +1,14 @@
+#!/usr/bin/python3
+
 from chess960 import generatePosition
 from flask import Flask
+from sys import argv
 
 app = Flask(__name__)
 
 HTML_CODES = {"K": "&#9812;", "Q": "&#9813;", "R": "&#9814;", "B": "&#9815;", "N": "&#9816;"}
+
+port = argv[1] if len(argv) >= 2 else 5000
 
 def positionIntoHTML(layout):
 	newLayout = []
@@ -34,4 +39,4 @@ def index(number=1):
 	return html
 
 
-app.run(host="0.0.0.0")
+app.run(host="0.0.0.0", port=port)
